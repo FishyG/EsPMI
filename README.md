@@ -16,7 +16,7 @@ To compile the web interface you can either update the app to use newer packages
    cd front/web-demo
    ```
 
-2. Install the package
+2. Install the packages
 
    ```bash
    npm install
@@ -28,7 +28,7 @@ To compile the web interface you can either update the app to use newer packages
    npm run build
    ```
 
-4. (Optionnal) If you want to make developpement, you can use the developpement server
+4. (Optional) If you are going to do some development, you can use the development server (works really well)
 
    ```bash
    npm run serve
@@ -39,5 +39,5 @@ To compile the web interface you can either update the app to use newer packages
 To compile the app for the ESP32 you can either use Espressif's idf extension for Visual Studio Code or install esp-idf standalone. This app was built using IDF version: v5.2-dev-703-gefe919275e.
 
 1. Make sure you already built the web interface (check for the *dist* folder)
-2. Build and flash the app using vsCode 
+2. Build and flash the app using vsCode (I added the .bin file for an esp32 so you don't need to rebuild the app if you just want to test it)
 
